@@ -30,7 +30,25 @@ div {
 }
 .content{
   display: flex;
-  width: 1232px;
-  margin: 0 auto 78px auto;
   padding-top: 116px;
+
+}
+.column {
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
 }
